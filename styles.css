@@ -1,0 +1,128 @@
+body {
+  font-family: Chalkduster, roboto;
+  color: midnightblue;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgreen;
+
+}
+
+.navbar div {
+  font-size: larger;
+
+}
+
+.navinfo {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.two {
+  display: flex;
+  background-color: lightgreen;
+  
+}
+
+.two img {
+  margin: 50px;
+}
+
+.two div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.hero-info {
+  color: crimson;
+}
+
+.button {
+  background-color: #3882F6;
+  border: 2px solid white;
+  color: white;
+  width: 100px;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.three {
+  background-color: moccasin;
+}
+
+.three h2 {
+  text-align: center;
+  color: crimson;
+}
+
+.three .pics {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pics p {
+  display: flex;
+  justify-content: center;
+}
+
+
+.four {
+  background-color: white;
+  height: 150px;
+  text-align: center;
+  margin: 50px;
+}
+
+.five {
+  background-color: moccasin;
+  height: 300px;
+  display: flex;
+
+}
+
+.action {
+  color: aliceblue;
+  background-color: #3882F6;
+  margin: 50px;
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 20px;
+}
+
+.six {
+  background-color: lightgreen;
+  height: 50px;
+  text-align: center;
+  color: crimson;
+}
+
+
+
+
