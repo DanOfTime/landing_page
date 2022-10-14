@@ -16,13 +16,14 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: lightgreen;
+  padding: 10px;
 
 }
 
 .navbar div {
-  font-size: larger;
+  font-size: x-large;
 
 }
 
@@ -33,20 +34,33 @@ body {
 }
 
 .two {
-  display: flex;
   background-color: lightgreen;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
   
 }
 
-.two img {
-  margin: 50px;
-}
+
 
 .two div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 100px;
 
+}
+
+#stumpy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#stumpy p {
+  margin-top: 0px;
+  text-align: center;
 }
 
 .hero-info {
@@ -69,6 +83,7 @@ img {
   border-radius: 40px;
 }
 
+
 .three {
   background-color: moccasin;
 }
@@ -80,14 +95,22 @@ img {
 
 .three .pics {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 20px;
 }
 
 .pics p {
   display: flex;
   justify-content: center;
+  text-align: center;
+  max-width: 250px;
 }
+
+/* #brando {
+  max-width: 200px;
+  text-align: center;
+
+} */
 
 
 .four {
@@ -109,9 +132,11 @@ img {
   background-color: #3882F6;
   margin: 50px;
   padding: 10px;
-  width: 200px;
+  width: 100px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex: 1;
   border-radius: 20px;
 }
